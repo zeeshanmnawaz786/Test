@@ -10,6 +10,21 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+    <style>
+      /* Custom CSS to make the container full height */
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+      .full-height-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -63,6 +78,32 @@
     </nav>
 
     <!-- HERO SECTION -->
+    <div class="full-height-container">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="p-5 ps-0 pb-3" style="margin-top: 10%">
+              Welcome to the <span style="color: green">Saylani</span> Welfare
+            </h1>
+            <h4 class="pb-2">
+              The largest NGO offering free
+              <span style="color: blue">IT and vocational training</span>
+            </h4>
+            <p>
+              Saylani Welfare is on the ground and already working with local
+              communities to assess how best to support underprivileged families
+              in more than 63 areas of day to day lives.
+            </p>
+            <button type="button" class="btn btn-primary ps-4 pe-4">
+              Explore More <span>--></span>
+            </button>
+          </div>
+          <div class="col">
+            <img src="./Images/38.png" alt="" style="width: 100%" />
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Banner -->
     <div class="d-flex justify-content-center">
       <img src="./Images/banner.jpg" alt="" class="mx-5 my-3" />
@@ -103,5 +144,36 @@
         </div>
       </div>
     </div>
+
+    <!-- IMAGE WITH SIDE TEXT -->
+
+    <!-- <div class="container">
+      <div class="row">
+        <figure class="d-flex">
+          <img
+            src="./Images/side image.jpg"
+            class="img-fluid mr-3"
+            alt="Image"
+          />
+          <figcaption>
+            <h5>Image Heading</h5>
+            <p>
+              Saylani Welfare has also set up a clinic for the best treatment of
+              hepatitis patients where hepatitis patients are being treated
+            </p>
+            <h5>Image Heading</h5>
+            <p>
+              Saylani Welfare has also set up a clinic for the best treatment of
+              hepatitis patients where hepatitis patients are being treated
+            </p>
+            <h5>Image Heading</h5>
+            <p>
+              Saylani Welfare has also set up a clinic for the best treatment of
+              hepatitis patients where hepatitis patients are being treated
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div> -->
   </body>
 </html>
